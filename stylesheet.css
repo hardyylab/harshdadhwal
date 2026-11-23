@@ -140,3 +140,24 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.one {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.one img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .one {
+    max-width: 220px;
+  }
+}
